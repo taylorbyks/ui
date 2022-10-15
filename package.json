@@ -1,5 +1,5 @@
 {
-  "name": "ts-ui",
+  "name": "@taylorbyks/ts-ui",
   "author": "Taylor Byk Schinvelski @taylorbyks",
   "description": "The UI builded by Taylor Schinvelski",
   "homepage": "https://taylorbyks.github.io/ts-ui/",
@@ -42,8 +42,7 @@
     "@radix-ui/react-slot": "^1.0.0",
     "clsx": "^1.2.1",
     "phosphor-react": "^1.4.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",

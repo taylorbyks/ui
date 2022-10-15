@@ -18,11 +18,10 @@ export default defineConfig({
       fileName: (format) => `ts-ui.${format}.js`,
     },
     rollupOptions: {
-      external: ['react', 'react-dom', 'phosphor-react', '@radix-ui/react-checkbox', '@radix-ui/react-slot', 'clsx'],
+      external: ['react', 'phosphor-react', '@radix-ui/react-checkbox', '@radix-ui/react-slot', 'clsx'],
       output: {
         globals: {
           react: 'React',
-          'react-dom': 'ReactDOM',
           'phosphor-react': 'Phosphor',
           '@radix-ui/react-checkbox': 'Checkbox',
           '@radix-ui/react-slot': 'Slot',
