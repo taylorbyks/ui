@@ -10,7 +10,7 @@ module.exports = {
   },
   viteFinal: async (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/ts-ui/'
+      config.base = '/ui/'
     }
 
     return config
