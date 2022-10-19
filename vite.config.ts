@@ -13,9 +13,9 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
-      name: 'TS-UI',
+      name: '@taylorbyks/ui',
       formats: ['es', 'umd'],
-      fileName: (format) => `ts-ui.${format}.js`,
+      fileName: (format) => `ui.${format}.js`,
     },
     rollupOptions: {
       external: ['react', 'phosphor-react', '@radix-ui/react-checkbox', '@radix-ui/react-slot', 'clsx'],
