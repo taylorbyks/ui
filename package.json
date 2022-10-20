@@ -10,7 +10,7 @@
     "url": "https://github.com/taylorbyks/ui"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org/"
   },
   "main": "./dist/ui.umd.js",
   "module": "./dist/ui.es.js",

@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 16
+          node-version: 16.x
           always-auth: true
           registry-url: 'https://registry.npmjs.org'
 
@@ -27,6 +27,6 @@ jobs:
         run: yarn build
 
       - name: Deploy to NPM
-        run: echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc && yarn publish
+        run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
