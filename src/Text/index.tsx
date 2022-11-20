@@ -1,3 +1,4 @@
+import '../styles/global.css'
 import { clsx } from 'clsx'
 import { Slot } from '@radix-ui/react-slot'
 import { ReactNode } from 'react'
