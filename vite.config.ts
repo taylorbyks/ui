@@ -9,7 +9,7 @@ export default defineConfig({
     plugin({
       'jsxRuntime': 'classic'
     }),
-    // react(),
+    react(),
     dts({
       insertTypesEntry: true,
     }),
